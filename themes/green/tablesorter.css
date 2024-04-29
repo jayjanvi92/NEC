@@ -1,0 +1,63 @@
+table.tablesorter {
+	font-size: 12px;
+	border: 0px solid #000;
+}
+table.tablesorter th {
+	text-align: left;
+	padding: 7px;
+	/*background-color:#CDCDCD;*/
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#e6e6e6'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#e6e6e6)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #ccc,  #e6e6e6); /* for firefox 3.6+ */
+}
+table.tablesorter td {
+	font-size: 12px;
+	margin: 0px;
+	padding:5px;
+	background-color: #fbfbfb;
+	height: 16px;
+	border: 1px solid #d8d8d8;
+}
+ 
+ table.tablesorter td a{
+  color:#54AE1A;
+ }
+table.tablesorter .even {
+	background-color: #3D3D3D;
+}
+table.tablesorter .odd {
+	background-color: #6E6E6E;
+}
+table.tablesorter .header {
+	background-image: url(bg.png);
+	background-repeat: no-repeat;
+	border-left: 1px solid #FFF;
+	border-right: 0px solid #000;
+	border-bottom: 1px solid #ccc;
+	padding-left: 35px;
+	padding-top: 8px;
+}
+table.tablesorter .headerSortUp {
+	background-image: url(asc.png);
+	background-repeat: no-repeat;
+}
+table.tablesorter .headerSortDown {
+	background-image: url(desc.png);
+	background-repeat: no-repeat;
+}
+
+.pager{
+	margin-bottom:10px;
+	float:left;
+	}
+	
+	.pager input{
+		border:solid 1px #999;
+		padding:2px;
+	}
+	
+	.pager img{
+		padding:2px;
+	}
+#pager .pagesize{
+width:	100%;}

@@ -1,0 +1,221 @@
+*{
+	margin:0 auto;
+	padding:0px;}
+
+
+body,html{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#333;
+	font-size:12px;
+	height:100%;
+	/*background-image: url(../images/bg.jpg);*/
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+	
+.center_no_records{
+color:red;
+}
+	img#bg{
+	  position:fixed;
+	  top:0;
+	  left:0;
+	  width:100%;
+	  height:100%;
+	}
+	
+	@font-face {
+    font-family: 'LeagueGothicRegular';
+    src: url('font/League_Gothic-webfont.eot');
+    src: url('font/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/League_Gothic-webfont.woff') format('woff'),
+         url('font/League_Gothic-webfont.ttf') format('truetype'),
+         url('font/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+	
+	h1 {
+		font-family:Verdana, Geneva, sans-serif;
+		font-size:22px;
+		font-weight:lighter;
+		color:#FFF;}
+		
+	h2 {
+		font-family: Arial, Helvetica, sans-serif, Verdana, Geneva, sans-serif;
+		font-size:20px;
+		color:#272727;
+		padding:10px;}
+		
+		
+	h3 {
+		font-family: Arial, Helvetica, sans-serif, Verdana, Geneva, sans-serif;
+		font-size:20px;
+		color:#868686;
+		padding:10px;}
+		
+		
+	h4 {
+		font-family: Arial, Helvetica, sans-serif, Verdana, Geneva, sans-serif;
+		font-size:16px;
+		color:#835f20;
+		padding:10px;}
+	
+	h6 {
+		font-family:Verdana, Geneva, sans-serif;
+		font-size:22px;
+		font-weight:lighter;
+		color:#000;
+		padding-bottom:10px;
+		}
+	
+	
+	p{
+		font-family:Verdana, Geneva, sans-serif;
+		color:#616161;
+		font-size:12px;
+		text-align:left;
+		}
+	
+	
+					#main_container{
+					margin:0 auto;		
+					max-width:100%;
+					position:relative;
+					border: solid #999 0px;
+					height:99%;
+					overflow:hidden;
+					}
+						
+								header{
+								position:relative;
+								}
+								
+									header>hgroup{
+									position:relative;
+									}
+								
+										header>hgroup>h1{
+										color:#676767;
+										font-size:12px;
+										text-align:right;
+										padding:10px;
+										}
+										
+							
+							#column_left{
+							width:50%;
+							border: solid #999 0px;
+							float:left;
+							-webkit-transition-property: width;
+							-moz-transition-property: width;
+							transition-property: width;
+							-webkit-transition-duration: 0.5s, 0.5s;
+							-moz-transition-duration: 0.5s, 0.5s;
+							transition-duration: 0.5s, 0.5s; 
+							-webkit-transition-timing function: linear, ease-in;
+							-moz-transition-timing function: linear, ease-in; 
+							transition-timing function: linear, ease-in;
+							height:82%;
+							}
+							
+								#logo{
+								width:50%;
+								border: solid #999 0px;
+								height:auto;
+								float:right;
+								margin:15% 5% 0 0;
+								-webkit-transition-property: width;
+								-moz-transition-property: width;
+								transition-property: width;
+								-webkit-transition-duration: 0.5s, 0.5s;
+								-moz-transition-duration: 0.5s, 0.5s;
+								transition-duration: 0.5s, 0.5s; 
+								-webkit-transition-timing function: linear, ease-in;
+								-moz-transition-timing function: linear, ease-in; 
+								transition-timing function: linear, ease-in;
+								}
+							
+							#column_right{
+							width:50%;
+							border: solid #999 0px;
+							float:right;
+							height:82%;
+							-webkit-transition-property: width;
+							-moz-transition-property: width;
+							transition-property: width;
+							-webkit-transition-duration: 0.5s, 0.5s;
+							-moz-transition-duration: 0.5s, 0.5s;
+							transition-duration: 0.5s, 0.5s; 
+							-webkit-transition-timing function: linear, ease-in;
+							-moz-transition-timing function: linear, ease-in; 
+							transition-timing function: linear, ease-in;
+							}
+						
+									
+
+									.login_form{
+									width:50%;
+									border: solid #999 0px;
+									height:auto;
+									float:left;
+										margin:21% 0 0 25%;
+									-webkit-transition-property: width;
+									-moz-transition-property: width;
+									transition-property: width;
+									-webkit-transition-duration: 0.5s, 0.5s;
+									-moz-transition-duration: 0.5s, 0.5s;
+									transition-duration: 0.5s, 0.5s; 
+									-webkit-transition-timing function: linear, ease-in;
+									-moz-transition-timing function: linear, ease-in; 
+									transition-timing function: linear, ease-in;
+									}
+									
+																			
+											.normal-control{
+											width:95%;
+											height:30px;
+											color:#9F9F9F;
+											padding:5px;
+											border-radius: 5px;
+											border:solid #b1c89c 1px;
+											}
+									
+										.login_form .submit_button{
+										height:30px;
+										width:45%;
+										padding:5px;
+										color:#FFFFFF;
+										border-radius: 5px;
+										border:none;
+										filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#65cc00', endColorstr='#438602');
+										background: -webkit-gradient(linear, left top, left bottom, from(#65cc00), to(#438602));
+										background: -moz-linear-gradient(top,  #65cc00,  #438602);
+										}
+										
+								footer{
+								max-width:100%;
+								position:relative;
+								border: solid #999 0px;
+								height:25px;
+								}
+								
+										footer p{
+										text-align:center;
+										padding-top:5px;
+										}						
+									
+					
+									.user_validate{
+									border:solid #c34928 1px;
+									}
+									
+									.err-message{height:30px;width:100%;color:#5a903d; font-weight:bold;}
+									
+						

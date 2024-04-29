@@ -1,0 +1,48 @@
+
+	.tablelayout{
+		line-height:30px;
+	}
+	
+	.tablelayout th{
+	background-image:url(../images/table_bg.jpg);
+	background-repeat:repeat-x;
+	height:35px;
+	}
+	
+	
+	.tablelayout TD{
+	font-size: 12px;
+	margin: 0px;
+	padding:5px;
+	background-color: #f1f1f1;
+	height: 16px;
+	border: 0px solid #d8d8d8;
+	}
+	
+	
+	#content_column_main table input{
+	width:49%;
+	height:20px;
+	color:#9F9F9F;
+	padding:5px;
+	border-radius: 5px;
+	border:solid #d6d6d6 1px;
+	}
+	
+	#content_column_main table select{
+	width:50%;
+	height:30px;
+	color:#9F9F9F;
+	padding:5px;
+	border-radius: 5px;
+	border:solid #d6d6d6 1px;
+	}
+	
+										.city-master{
+										float:right;
+										margin: 0 0 10px 0;
+										clear:both;
+										}
+	
+	
+
